@@ -1,4 +1,4 @@
-# scriptable object
+# scriptable object의 특징
 ## 데이터 컨테이너
  - 메모리 공간 절약, 에셋으로 저장됨
  - GameObject X, Transform X
@@ -14,4 +14,6 @@
 ## Asset으로 저장
  - 게임 모드 외부에서도 유지
  - 런타임에 동적으로 변경되는 정적 구성을 로드 가능
+
+# scriptable object의 작성 방법
 
