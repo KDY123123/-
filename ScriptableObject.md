@@ -16,4 +16,4 @@
  - 런타임에 동적으로 변경되는 정적 구성을 로드 가능
 
 # scriptable object의 작성 방법
-
+<img src ="./1.png">
