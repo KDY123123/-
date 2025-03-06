@@ -16,4 +16,8 @@
  - 런타임에 동적으로 변경되는 정적 구성을 로드 가능
 
 # scriptable object의 작성 방법
+1.C#스크립트 하나 생성
 <img src ="./1.png">
+2.ScriptableObject에서 상속받도록 하고,
+[CreateAssetmenu]기능을 사용하여 스크립터블 오브젝트를 에셋메뉴에서 만들도록 함
+<img src ="./2.png">
