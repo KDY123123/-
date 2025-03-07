@@ -18,8 +18,8 @@
     <img src = "photos/1-7.png">
     
 ## 4. 스크립트를 다음과 같이 작성한다.
-====================================
 
+```
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.Events;
@@ -64,7 +64,7 @@ public class controller : MonoBehaviour
         if (!isSelected) transform.DOMove(Vector3.zero, 0.1f);
     }
 }
+```
 
-====================================
 # 문법 설명
 ## 1.WorldToScreenPoint
