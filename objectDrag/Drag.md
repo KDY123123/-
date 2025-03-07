@@ -17,7 +17,7 @@
   __- DOTween 패키지를 import하면 끝!__
     <img src = "photos/1-7.png">
     
-## 4. 스크립트를 다음과 같이 작성한다.
+## 4. [스크립트를 다음과 같이 작성한다.](#1.-WorldToScreenPoint)
 
 ```
 using System.Runtime.InteropServices;
@@ -33,7 +33,7 @@ public class controller : MonoBehaviour
     private bool isSelected;
     private Vector3 GetMousepos()
     {
-        return [Camera.main.WorldToScreenPoint(transform.position)](##1.-WorldToScreenPoint);
+        return Camera.main.WorldToScreenPoint(transform.position)
         //이 트랜스폼 좌표를 스크린의 좌표로 변환한다.
     }
 
