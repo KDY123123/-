@@ -33,7 +33,7 @@ public class controller : MonoBehaviour
     private bool isSelected;
     private Vector3 GetMousepos()
     {
-        return [Camera.main.WorldToScreenPoint(transform.position)](# 1.WorldToScreenPoint);
+        return [Camera.main.WorldToScreenPoint(transform.position)](#1.WorldToScreenPoint);
         //이 트랜스폼 좌표를 스크린의 좌표로 변환한다.
     }
 
